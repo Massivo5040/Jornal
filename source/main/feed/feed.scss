@@ -1,0 +1,59 @@
+.container__standard-feed {
+  padding: 0 40px;
+
+  .news-category {
+    .category {
+      padding: 10px;
+      width: fit-content;
+      background-color: rgb(16, 163, 77);
+      font-size: 1.3rem;
+    }
+    .category-separator {
+      background-color: rgb(16, 163, 77);
+
+      width: 100%;
+      height: 3px;
+      border: none;
+    }
+  }
+
+  .container__card-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+
+    .card-news {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 150px;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.009);
+      }
+    }
+    .img {
+      width: 40%;
+      height: 100%;
+      background-image: url("https://nintendoeverything.com/wp-content/uploads/Hades-II-scaled.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 10px;
+    }
+    .news-informations {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 60%;
+      padding: 0 5px;
+      .title {
+        font-size: 1.5rem;
+      }
+      .date-author {
+        font-size: 1rem;
+      }
+    }
+  }
+}

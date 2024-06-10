@@ -1,0 +1,55 @@
+@use "../../styles/font" as f;
+
+footer {
+  margin-top: 30px;
+  background-color: salmon;
+
+  .footer-title {
+    padding: 5px 30px;
+    background-color: cornflowerblue;
+    font-size: 2.5rem;
+    font-family: f.$ant;
+  }
+  .container__main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 30px;
+    div {
+      align-self: normal;
+    }
+    .title {
+      font-size: 1.3rem;
+    }
+  }
+  .newspaper-team {
+    ul {
+      list-style-type: none;
+      font-size: 0.9rem;
+    }
+    li {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .section-separator {
+    width: 1px;
+    height: 220px;
+    margin: 0 15px;
+  }
+  svg {
+    &:hover {
+      fill: white;
+      transform: scale(1.09);
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+  .copyright {
+    background-color: lightgreen;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}

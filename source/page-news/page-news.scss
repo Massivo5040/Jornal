@@ -1,0 +1,29 @@
+@use "../normalize.scss";
+@use "../header/header.scss";
+@use "../footer/footer.scss";
+
+hr {
+  background-color: black;
+
+  border: none;
+}
+
+a {
+  color: black;
+}
+
+main {
+  .content {
+    border: 1px solid rebeccapurple;
+    padding: 5px 100px;
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 10px 0;
+    }
+  }
+}

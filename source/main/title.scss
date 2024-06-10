@@ -1,0 +1,11 @@
+@use "../../styles/font" as f;
+
+.container__title {
+  text-align: center;
+
+  h1 {
+    color: black;
+    font-family: f.$ant;
+    font-size: 6rem;
+  }
+}

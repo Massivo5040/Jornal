@@ -1,0 +1,39 @@
+.container__important-news {
+  width: 90%;
+  margin: 0 auto 50px;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .container__news-card {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+
+    .container__big-card {
+      width: 50%;
+    }
+
+    #news-separator {
+      width: 3px;
+      margin: 0 20px;
+    }
+
+    .container__small-news {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      width: 50%;
+
+      .container__small-card {
+        height: 32%;
+      }
+    }
+  }
+}
+
+@import "big_news";
+@import "small_news";

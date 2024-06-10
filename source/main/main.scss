@@ -1,0 +1,14 @@
+.container__feed {
+  .section-separator {
+    background-color: black;
+
+    width: 97%;
+    height: 3px;
+    margin: 25px auto;
+    border: none;
+  }
+}
+
+@import "title";
+@import "important_news/important_news";
+@import "feed/feed";
