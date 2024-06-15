@@ -57,3 +57,19 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .container__standard-feed {
+    .container__card-news {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .container__standard-feed {
+    .container__card-news {
+      grid-template-columns: 1fr;
+    }
+  }
+}

@@ -37,3 +37,29 @@
 
 @import "big_news";
 @import "small_news";
+
+@media (max-width: 900px) {
+  .container__important-news {
+    .container__news-card {
+      display: block;
+      height: auto;
+
+      .container__big-card {
+        width: 100%;
+      }
+
+      #news-separator {
+        display: none;
+      }
+
+      .container__small-news {
+        width: auto;
+
+        .container__small-card {
+          height: 120px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@
 }
 .container__menu {
   position: absolute;
+  z-index: 999;
   top: -4.4px;
   left: -290px;
   opacity: 0;

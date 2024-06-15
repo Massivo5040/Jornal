@@ -30,5 +30,8 @@
   }
 }
 
-// @media() {
-// }
+@media (max-width: 500px) {
+  .container__search_icon input {
+    width: 150px;
+  }
+}
