@@ -1,6 +1,6 @@
 @use "../normalize.scss";
-@use "../header/header.scss";
-@use "../footer/footer.scss";
+@use "../header/header";
+@use "../footer/footer";
 
 hr {
   background-color: black;
@@ -13,8 +13,25 @@ a {
 }
 
 main {
+  .news-img {
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+
+    background-image: url("https://cdn.windowsreport.com/wp-content/uploads/2020/06/angular-logo-2.png"),
+      url("https://th.bing.com/th/id/OIP.VK0xFiCsRaQcl9zDS3VktAHaEK?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .news-headline {
+    width: 95%;
+    height: 2px;
+    margin: 20px auto 0;
+    background-color: black;
+  }
+
   .content {
-    border: 1px solid rebeccapurple;
     padding: 5px 100px;
 
     h2 {
@@ -25,5 +42,11 @@ main {
       list-style-type: none;
       margin: 10px 0;
     }
+  }
+}
+
+@media (max-width: 900px) {
+  main .content {
+    padding: 5px 50px;
   }
 }
